@@ -18,6 +18,7 @@ form {
 .container2{
   
   padding: 60px;
+  line-height: 0.5;
   
   
 }
@@ -29,19 +30,28 @@ form {
   border: 2px solid  rgb(231, 228, 228);
   border-left: #5d2cd7 15px solid;
   border-radius: 10px 5px 5px 10px;
+  color:  rgb(216, 216, 216);
+  
 }
-.form-group > .formcontrol{
+.form-group > .form-control{
   border: none;
-  outline: 0;
+  
   color: #5d2cd7;
-  padding: 10px;
-  width: 330px;
+  
+  outline: none;
+  box-shadow:none;
+  background-color: white;
+  height: 30px !important; 
+ padding-bottom: 5px;
   
 
 }
+.b{
+  padding-left: 10px;
+}
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color:#5d2cd7;
+  color:#5d2cd7 !important;
   opacity: 1; /* Firefox */
 }
 
@@ -59,8 +69,12 @@ form {
 }
 .form-group > .formGroupExampleInput{
   padding-left: 10px;
-  color: gray;
+  color: rgb(216, 216, 216);
+  height: 25px !important; 
 }
+
+
+
 .head1{
   color: #5d2cd7;
   font-size: 250%;
@@ -72,14 +86,16 @@ form {
 .head2{
  
   font-size: 250%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
   font-weight: lighter;
+  letter-spacing: 1px;
+  line-height: 1;
   
 }
 .head3{
-  
+  letter-spacing: 2px;
   font-size: 250%;
- font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
   font-weight: lighter;
 }
 
@@ -87,25 +103,26 @@ form {
   color: rgb(224, 222, 222);
   font-size: 150%;
 }
-.button {
-  background-color: #5d2cd7;
-  border-radius: 5px;
-  color: white;
-  padding: 8px 35px;
-  text-align: center;
-  text-decoration: none;
-  box-shadow: 5px 5px 5px rgb(202, 202, 209)  ;
+/*.btn {
+  background-color: #5d2cd7 !important;
+  box-shadow: none;
+border: none;
+margin: none;
+  outline: #5d2cd7;
+  width: 100px;
   
 }
+*/
 
-.button1 {
+button1 {
   background-color: white;
-  
+  margin-left: 10px;
   border: 2px solid #5d2cd7;
   border-radius: 5px;
   color: #5d2cd7;
-  padding: 8px 29px;
+  padding: 6px 20px;
   text-align: center;
+  outline: #5d2cd7;
   text-decoration: none;
 
 
